@@ -1,0 +1,49 @@
+
+---Downloaded files---
+The import files for: Marin were successfully downloaded!
+Initial max execution time = 120
+Files info:
+Site URL = http://localhost/prakash-marin
+Data file = C:\xampp\htdocs\prakash-marin/wp-content/uploads/2024/02/demo-content-import-file_2024-02-17__16-38-19.xml
+Widget file = C:\xampp\htdocs\prakash-marin/wp-content/uploads/2024/02/demo-widgets-import-file_2024-02-17__16-38-19.json
+Customizer file = C:\xampp\htdocs\prakash-marin/wp-content/uploads/2024/02/demo-customizer-import-file_2024-02-17__16-38-19.dat
+Redux files:
+not defined!
+
+---Importing widgets---
+Sidebar Widget Area : 
+
+Block - No Title - Widget already exists
+Block - No Title - Widget already exists
+Block - No Title - Widget already exists
+Block - No Title - Widget already exists
+
+Footer 1 : 
+
+Block - No Title - Widget already exists
+Block - No Title - Widget already exists
+
+Footer 2 : 
+
+Block - No Title - Widget already exists
+Block - No Title - Widget already exists
+
+Footer 3 : 
+
+Block - No Title - Widget already exists
+Block - No Title - Widget already exists
+
+WooCommerce Widget Area : 
+
+Block - No Title - Widget already exists
+Block - No Title - Widget already exists
+Block - No Title - Widget already exists
+Block - No Title - Widget already exists
+
+
+
+---Importing customizer settings---
+Error: The customizer import file is not in a correct format. Please make sure to use the correct customizer import file.
+
+---ocdi/after_import---
+

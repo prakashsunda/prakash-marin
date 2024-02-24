@@ -1,0 +1,104 @@
+.loading-icon {
+    display: flex;
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000000;
+    z-index: 20;
+}
+
+.loading-icon__bar {
+    display: inline-block;
+    width: 20px;
+    height: 60px;
+    margin: 0 2px;
+    box-shadow: 0 0 10px #000;
+    animation: loading-icon 10s ease-in-out infinite;
+    animation-delay: 5s;
+}
+
+@keyframes loading-icon {
+    0% {
+        transform: scale(1) rotate(0deg);
+    }
+
+    10% {
+        transform: scale(1) rotate(360deg);
+    }
+
+    20% {
+        transform: scale(1) rotate(180deg);
+    }
+
+    30% {
+        transform: scale(2, 1.5) skewY(40deg) rotate(180deg);
+    }
+
+    40% {
+        transform: scale(1) rotate(360deg);
+        border-radius: 0;
+    }
+
+    50% {
+        transform: scale(2, 2) skewY(40deg) rotate(0deg);
+        border-radius: 0 50%;
+    }
+
+    60% {
+        transform: scale(2, 2.5) skewY(40deg) rotate(360deg);
+    }
+
+    70% {
+        transform: scale(2, 1.5) skewY(40deg) rotate(0deg);
+    }
+
+    80% {
+        transform: scale(1) rotate(0deg);
+        border-radius: 0;
+    }
+
+    100% {
+        transform: scale(1) rotate(0deg);
+    }
+}
+
+.loading-icon__bar:nth-child(1) {
+    background-color: #27AAE1;
+    animation-delay: 0s;
+}
+
+.loading-icon__bar:nth-child(2) {
+    background-color: #F05A2A;
+    animation-delay: 0.1s;
+}
+
+.loading-icon__bar:nth-child(3) {
+    background-color: #FFCC00;
+    animation-delay: 0.2s;
+}
+
+.loading-icon__bar:nth-child(4) {
+    background-color: #27AE60;
+    animation-delay: 0.3s;
+}
+
+.app-loading {
+    background-color: #000000;
+    z-index: 20;
+    -webkit-animation-delay: 15s;
+    animation-delay: 15s;
+}
+
+@keyframes app-loading {
+    0% {
+        transform: scale(1) rotate(0deg);
+    }
+
+    100% {
+        transform: scale(1) rotate(360deg);
+    }
+}
